@@ -1,0 +1,9 @@
+Lista=["juan","Ivan","Adrian","Sair"]
+print(Lista)
+print(Lista[2])
+Lista.append("Alexa")
+print(Lista)
+Lista.insert(1,"Zoe")
+print(Lista)
+Lista.pop()
+Lista.remove[0]
