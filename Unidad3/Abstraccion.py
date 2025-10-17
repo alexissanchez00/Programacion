@@ -22,25 +22,32 @@ class Moto(Vehiculo):
 class Camion(Vehiculo):
     pass
 
+class Camioneta(Vehiculo):
+    pass
+
 # Crear objetos de las clases hijas
 auto1 = Auto("Toyota", "Corolla", 2022, "Rojo")
+auto2 = Moto("Kawasaki", "Ninja ZX-6R", 2023, "Verde")
 moto1 = Moto("Yamaha", "FZ", 2021, "Negra")
+moto2 = Moto("Suzuki", "GSX-R750", 2022, "Azul")
 camion1 = Camion("Volvo", "FH", 2020, "Blanco")
-auto2 = Auto("Honda", "Civic", 2023, "Azul")
-auto3 = Auto("Ford", "Mustang", 2021, "Negro")
-auto4 = Auto("Chevrolet", "Spark", 2020, "Verde")
-auto5 = Auto("Nissan", "Sentra", 2022, "Gris")
-auto6 = Auto("Mazda", "CX-5", 2024, "Blanco")
+camion2 = Camion("Mercedes-Benz", "Actros", 2021, "Gris")
+camioneta1 = Camioneta("Jeep", "Cherokee", 2023, "Verde")
+camioneta2 = Camioneta("Toyota", "Hilux", 2022, "Roja")
 
 # Visualización
 print(auto1)
-print(moto1)
-print(camion1)
 print(auto2)
-print(auto3)
-print(auto4)
-print(auto5)
-print(auto6)
+print(moto1)
+print(moto2)
+print(camion1)
+print(camion2)
+print(camioneta1)
+print(camioneta2)
+
+
+
+
 
 
 
