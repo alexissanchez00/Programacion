@@ -39,6 +39,16 @@ print("Velocidad actual:", auto1.get_velocidad_actual(), "km/h")
 auto1.frenar(100)
 print("Velocidad actual:", auto1.get_velocidad_actual(), "km/h")
 
+auto2.acelerar(50)
+print("Velocidad actual:", auto1.get_velocidad_actual(), "km/h")
+
+auto2.acelerar(200)
+print("Velocidad actual:", auto1.get_velocidad_actual(), "km/h")
+
+auto2.frenar(100)
+print("Velocidad actual:", auto1.get_velocidad_actual(), "km/h")
+
+
 #Encapsulamiento
 # _marca = variables privadas
 # marca = variables que se pueden mandar a llamar declarando primero a la clase o funcion
